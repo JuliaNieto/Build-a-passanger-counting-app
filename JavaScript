@@ -1,7 +1,8 @@
-let count = 0
+let count = 5
 let incrementBtn = document.getElementById('increment-btn')
 
 function increment(){
+  count= 0
   count +=1
   console.log(count)
 }
